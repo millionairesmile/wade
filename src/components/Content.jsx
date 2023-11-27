@@ -28,7 +28,7 @@ const Content = () => {
         <div className="flex font-extrabold" style={{ whiteSpace: "nowrap" }}>
           <div
             style={{
-              width: "500px", // Increased width for a wider gap
+              width: "400px", // Increased width for a wider gap
               fontSize: "150px",
               color: "transparent",
               WebkitTextStroke: "1px white",
@@ -38,7 +38,7 @@ const Content = () => {
             World
           </div>
           <div
-            className={`text-5xl font-black text-white flex justify-center items-center ml-200 ${
+            className={`text-5xl font-black text-white flex justify-center items-center ${
               isBlinking ? "opacity-0" : ""
             }`}
             style={{
@@ -50,7 +50,7 @@ const Content = () => {
           </div>
           <div
             style={{
-              width: "500px", // Increased width for a wider gap
+              width: "400px", // Increased width for a wider gap
               fontSize: "150px",
               color: "transparent",
               WebkitTextStroke: "1px white",
