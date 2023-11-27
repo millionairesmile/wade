@@ -1,3 +1,38 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+.text-shadow {
+  text-shadow: 1px 1px 2px var(--tw-shadow-color);
+}
+
+/* Add this to your stylesheet or within a style tag */
+.nav-item {
+  position: relative;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-item:hover {
+  color: #ffffff; /* Change to your desired hover color */
+}
+
+.nav-item::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: #ffffff; /* Change to your desired underline color */
+  transition: width 0.3s ease-in-out;
+}
+
+.nav-item:hover::after {
+  width: 100%;
+}
