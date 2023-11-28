@@ -16,7 +16,7 @@ const Main = () => {
         loop
         muted={isMuted}
       />
-      {/* Mute/Unmute button with inline SVG and text labels */}
+
       <div className="fixed bottom-4 right-4 mr-10 mb-20">
         <span
           className="text-white text-lg mr-2"
