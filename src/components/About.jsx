@@ -1,12 +1,23 @@
 import React from "react";
+import Header from "./Header";
 
 const About = () => {
   return (
-    <div className="bg-black min-h-screen flex justify-center items-center">
-      <div className="flex justify-center items-center">
+    <>
+      <div className="absolute z-10 w-full">
+        <Header />
+      </div>
+      <div className="bg-black min-h-screen flex justify-center items-center">
+        <div
+          className="absolute w-full h-full"
+          style={{
+            backgroundImage:
+              "linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.8))",
+          }}
+        />
         <img
           src="./images/aboutIntro.jpeg"
-          className="absolute w-full h-full"
+          className="absolute w-full h-full opacity-80"
         />
         <div className="text-center relative flex justify-center items-center">
           <div className="w-full max-w-md animate-fadeInOut">
@@ -19,7 +30,7 @@ const About = () => {
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 
