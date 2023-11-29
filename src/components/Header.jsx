@@ -30,7 +30,7 @@ const Header = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <div className="flex w-[35px] h-[35px]  justify-center items-center rounded-full bg-wade-gray text-[10px] text-white ml-16">
+            <div className="flex w-[35px] h-[35px]  justify-center items-center rounded-full bg-[#756e6e58] text-[10px] text-white ml-16">
               <span>
                 <img
                   src="./images/instagram.svg"
@@ -45,7 +45,7 @@ const Header = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <div className="flex w-[35px] h-[35px]  justify-center items-center rounded-full bg-wade-gray text-[10px] text-white ml-4">
+            <div className="flex w-[35px] h-[35px]  justify-center items-center rounded-full bg-[#756e6e58] text-[10px] text-white ml-4">
               <img
                 src="./images/twitterX.svg"
                 className="w-[19px] y-[19px]"
@@ -58,7 +58,7 @@ const Header = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <div className="flex w-[35px] h-[35px]  justify-center items-center rounded-full bg-wade-gray text-[10px] text-white ml-4">
+            <div className="flex w-[35px] h-[35px]  justify-center items-center rounded-full bg-[#756e6e58] text-[10px] text-white ml-4">
               <img
                 src="./images/discord.svg"
                 className="w-[19px] y-[19px]"
