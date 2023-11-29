@@ -2,14 +2,20 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="bg-gray-300 min-h-screen flex justify-center items-center">
-      <div className="bg-white p-4 w-[1500px] h-[700px] text-center relative flex justify-center items-center">
-        <div className="w-full max-w-md animate-fadeInOut">
-          <div className="text-4xl font-black mb-4">
-            <div>🚧</div>
-            <div className="mt-10">ABOUT PAGE</div>
-            <div className="mt-20">WORK IN PROGRESS</div>
-            <div className="mt-10">🚧</div>
+    <div className="bg-black min-h-screen flex justify-center items-center">
+      <div className="flex justify-center items-center">
+        <img
+          src="./images/aboutIntro.jpeg"
+          className="absolute w-full h-full"
+        />
+        <div className="text-center relative flex justify-center items-center">
+          <div className="w-full max-w-md animate-fadeInOut">
+            <div className="text-8xl font-black text-white mb-4">
+              <div className="mt-10">WORK</div>
+              <div className="mt-10">IN</div>
+              <div className="mt-10">PROGRESS</div>
+              <div className="mt-10">🧑🏻‍💻</div>
+            </div>
           </div>
         </div>
       </div>
