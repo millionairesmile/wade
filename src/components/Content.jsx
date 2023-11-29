@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Main from "./Main";
+import Video from "./Video";
 
 const Content = () => {
   const [aboutText, setAboutText] = useState("ABOUT");
@@ -84,7 +84,7 @@ const Content = () => {
         </div>
         <div></div>
       </div>
-      <Main />
+      <Video />
     </div>
   );
 };

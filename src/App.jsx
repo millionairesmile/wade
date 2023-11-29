@@ -1,21 +1,18 @@
-import Header from "./components/Header";
-import Main from "./components/Main";
 import React from "react";
-import { Routes, Route, Link } from "react-router-dom";
-import Content from "./components/Content";
-import Footer from "./components/Footer";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import About from "./components/About";
+import Main from "./components/Main";
+import Nfts from "./components/Nfts";
 
 const App = () => {
   return (
-    <div>
-      <div className="min-h-screen">
-        <div>
-          <Header />
-          <Content />
-          <Footer />
-        </div>
-      </div>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Main />} />
+        <Route path="/ABOUT" element={<About />} />
+        <Route path="/NFTS" element={<Nfts />} />
+      </Routes>
+    </BrowserRouter>
   );
 };
 

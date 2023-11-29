@@ -1,18 +1,26 @@
+import { Link } from "react-router-dom";
+
 const Header = () => {
   return (
     <div className="flex justify-between items-center text-2xl sticky top-0 text-white">
       <>
-        <img
-          src="./images/wadeLogo.png"
-          className="w-[160px] ml-3"
-          alt="Wade Logo"
-        />
+        <Link to="/">
+          <img
+            src="./images/wadeLogo.png"
+            className="w-[160px] ml-3"
+            alt="Wade Logo"
+          />
+        </Link>
 
         <div className="mr-5 flex">
           <div>
             <ul className="flex text-[18px] font-bold gap-24">
-              <li className="nav-item">ABOUT</li>
-              <li className="nav-item">NFTS</li>
+              <Link to="/About">
+                <li className="nav-item">ABOUT</li>
+              </Link>
+              <Link to="/Nfts">
+                <li className="nav-item">NFTS</li>
+              </Link>
               <li className="text-wade-gray">MUSIC</li>
               <li className="text-wade-gray">MERCH</li>
             </ul>

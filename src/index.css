@@ -35,3 +35,17 @@ body {
 .nav-item:hover::after {
   width: 100%;
 }
+
+@keyframes fadeInOut {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+.animate-fadeInOut {
+  animation: fadeInOut 8s infinite;
+}
