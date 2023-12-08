@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <div className="flex justify-between items-center text-2xl sticky top-0 text-white">
+    <div className="flex justify-between items-center text-2xl sticky top-0 text-white z-40  absolute">
       <>
         <Link to="/">
           <img

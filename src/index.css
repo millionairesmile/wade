@@ -49,3 +49,41 @@ body {
 .animate-fadeInOut {
   animation: fadeInOut 8s infinite;
 }
+
+.about-intro-container {
+  position: relative;
+  background-color: black;
+}
+
+.image-section {
+  position: relative;
+  width: 100%;
+  height: 62.5vw;
+  z-index: 1;
+}
+
+.image-section img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.text-section {
+  position: relative;
+  z-index: 2;
+}
+
+@keyframes fadeFromBottom {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animate-fade-in {
+  animation: fadeFromBottom 5s ease-out forwards;
+}
