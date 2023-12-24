@@ -81,6 +81,7 @@ const Nfts = () => {
             className="absolute h-[32.6vw] w-[21.15vw] mt-24"
             style={{ transform: "translateX(11cm)" }}
           />
+
           <div
             className="absolute h-[32.6vw] w-[50vw] text-white ml-[16cm]"
             style={{ transform: "translateX(-15cm)" }}
